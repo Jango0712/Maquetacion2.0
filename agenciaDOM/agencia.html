@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agencia.css">
+    <title>JanGo Travel</title>
+</head>
+
+<header class="cabecera">
+    <h1 class="title">✈️✈️✈️ JanGo Travel ✈️ ✈️ ✈️</h1>
+    <figure class="img">
+        <img class="img_img" src="jango.jpg" alt="">
+    </figure>
+</header>
+
+<article>
+    <section class="section1">
+        <div class="info">
+        <h1 class="descripcion">JanGo Travel es una agencia de viajes, cuenta con los mejores precios del mercado, ademas de tours a destinos a destinos maravillosos</h1>
+        <br>
+        <h1 class="descripcion">Animate a disfrutar de las mejores experiencias de tu vida, en lugares inigualables.</h1>
+    </div>
+    <figure class="figure">
+        <img class="img_info" src="info.jpg" alt="">
+    </figure>
+    </section>
+    <div class="borde"></div>
+    <section class="section2">
+        <div class="carta">
+           <figure class="img_container">
+            <img class="img_carta" src="galicia.jpg" alt="">
+           </figure>
+           <strong  class="ciudad">Galicia</strong>
+           <br>
+           <p class="parrafo">Galicia es tan célebre por sus maravillosos paisajes, verdes en sus campos y plateados en el mar, como por sus bellísimas edificaciones que van desde las pintorescas viviendas tradicionales hasta las más importantes joyas monumentales.</p>
+        </div>
+        <div class="carta">
+          <figure class="img_container">
+            <img class="img_carta" src="canarias.jpg" alt="">
+          </figure>
+          <strong class="ciudad">Canarias</strong>
+          <br>
+          <p class="parrafo">¿Qué tiene de especial las Islas Canarias?
+            Posee espectaculares paisajes volcánicos, un bosque húmedo en Anaga, senderos perfectamente marcados por todo el territorio, un cielo espectacular para disfrutar de las estrellas, playas de arena volcánica, pequeños pueblos coloniales y sol, por supuesto, especialmente en el sur de la isla.</p>
+        </div>
+        <div class="carta">
+           <figure class="img_container">
+            <img class="img_carta" src="mallorca.jpeg" alt="">
+           </figure>
+           <strong  class="ciudad">Mallorca</strong>
+           <br>
+           <p  class="parrafo">Mallorca es una isla española situada en la parte central del archipiélago balear, en el mar Mediterráneo. Su capital, y también la de la comunidad autónoma de las Islas Baleares, es Palma de Mallorca,​ siguiéndola en importancia los municipios de Calviá, Inca y Manacor.</p>
+        </div>
+        <div class="carta">
+           <figure class="img_container">
+            <img class="img_carta" src="paris.jpg" alt="">
+           </figure>
+           <strong  class="ciudad">Paris</strong>
+           <br>
+           <p  class="parrafo">Ciudad esplendorosa, vibrante, ciudad de la moda y los grandes gourmets, ciudad de amplias avenidas y plazas de esplendor, monumentos y edificios históricos, los mejores museos, París tiene todo lo que buscáis.</p>
+        </div>
+    </section>
+    <div class="borde2"></div>
+    <nav class="nav">
+        <h3 class="viaja">Viaja con amor, viaja con pasion, viaja con JanGo Travel...</h3>
+    </nav>
+    <section class="section3">
+        <div class="div">
+            <div class="">
+                <form action="">
+                    <input class="formulario" type="text" placeholder="Nombre" id="nombre">
+                    <input class="formulario" type="text" placeholder="Origen" id="origen">
+                    <input class="formulario" type="text" placeholder="Destino" id="destino" >
+                    <input class="formulario" type="text" placeholder="Numero de personas" id="nPersonas" >
+                    <input class="formulario1" type="date" id="fecha">
+                    <div class="buttons">
+                        <input class="formulario2" type="submit" onclick="mostrarInformacion(event)" value="Solicitar Informacion"></button>
+                        <input class="formulario2" type="submit" value="Filtrar" onclick="filtrar(event)"></button>
+                    </div>
+                </form>
+            </div>
+            <div class="container_filter">
+                <h2 class="filtrar_elementos">Filtrar elementos</h2>
+                <table class="table" id="lista">
+                    <tr>
+                        <th class="th">Nombre</th>
+                        <th class="th">Origen</th>
+                        <th class="th">Destino</th>
+                        <th class="th">Nro personas</th>
+                        <th class="th">Fecha</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+       
+    </section>
+
+    <footer class="footer">
+    
+        <h1 class="fh">Redes sociales</h1>
+    
+    <div>
+        <a class="link" href="https://www.facebook.com/Jango0712">Facebok</a>
+        <a class="link" href="https://www.instagram.com/jangoyt/?hl=es">Instagram</a>
+    </div>
+    </footer>
+</article>
+<script src="agencia.js"></script>
+
+<body>
+    
+</body>
+</html>
