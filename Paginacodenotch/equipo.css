@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+
+}
+
+.cabecera{
+    
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width: 100%;
+    background-color:black ; 
+    justify-content: center;
+    position: fixed;
+    
+}
+
+.title{
+    color: white;
+    margin-left: 90px;
+    margin-top: 35px;
+    margin-right: 150px;
+}
+
+.enlaces{
+    margin: 40px;
+}
+
+.link{
+    color: white;
+    margin: 60px ;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.link:hover{
+ background-color: rgb(0, 0, 255);
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:rgb(0, 0, 255);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    margin-top: 100px;
+   
+    }
+
+.ec{
+    font-size: 40px; 
+    color: white;
+    
+}
+
+.profesor{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 800px;
+    width: 500px;
+    margin: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 5px rgba(255, 255, 255, 0.606);
+    background: rgba(0, 0, 0, 0.913);
+    text-align: center;
+    
+}
+
+.prof_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    max-height: 500px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.pr_img{
+    width: 500px;
+    height: auto;
+    max-height: 500px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color:black ; 
+    align-items: center;
+   
+}
+
+.fh{
+    color: white;
+    font-size: 25px;
+    margin: 40px;
+}
+
+
+.texto{
+    color: white;
+}
+.profesion{
+    color: white;
+}
+.h1{
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.info{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+}

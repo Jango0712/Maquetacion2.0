@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+
+}
+
+.cabecera{
+    
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width: 100%;
+    background-color:black ; 
+    justify-content: center;
+    position: fixed;
+    
+}
+
+.title{
+    color: white;
+    margin-left: 90px;
+    margin-top: 35px;
+    margin-right: 150px;
+}
+
+.enlaces{
+    margin: 40px;
+}
+
+.link{
+    color: rgb(127, 125, 125);
+    margin: 60px ;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.link:hover{
+ color: white;
+}
+
+.img{
+    display: flex;
+    width: 100%;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+    background-color:black ; 
+    justify-content: center;
+}
+
+.tex{
+    color: white;
+    margin-top: 25px;
+    font-size:large;
+    letter-spacing: -1px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    margin-top: 2px;
+    background-color: black;
+}
+
+.section_sec{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 700px;
+}
+
+.tex2{
+    color: white;
+    font-size: 40px;
+    margin: 50px 0px 90px 0px;
+   
+    
+   
+}
+.tex3{
+    color: white;
+    font-size: 23px;
+    letter-spacing: 1px;
+    
+}
+.tex4{
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    
+}
+.section2_img{
+    display: flex;
+    flex-direction: column;
+   
+    height: 600px;
+    width: 500px;
+    justify-content: flex-end;
+}
+ .img2{
+    height: 250px;
+    width: 400px;
+ }
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 900px;
+    justify-content:space-around;
+    align-items: center;
+    background-color:blue;
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+    height: 80px;
+    margin-top: 50px;
+    
+  
+}
+
+.tex5{
+    color: white;
+    font-size: 40px; 
+}
+
+.sec_sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    width: 50%;
+    height: 700px;
+   
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+   
+}
+
+.tex_card{
+    color: white;
+    font-size: 29px;
+}
+
+.textos{
+    color: white;
+}
+
+.section4{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    justify-content:space-between;
+    align-items: center;
+    background-color:blue;
+}
+
+.textos2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 60%;
+}
+
+.tex_tex{
+font-size:22px;
+letter-spacing: 1px;
+}
+
+.isa{
+    margin-right: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color:black ; 
+    align-items: center;
+}
+
+.fh1{
+    color: white;
+    font-size: 25px;
+    margin: 40px;
+}
+
+
+
+
+
+
