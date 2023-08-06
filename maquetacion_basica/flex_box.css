@@ -1,0 +1,130 @@
+
+.caja{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center ;
+    width: 350px;
+    height: 500px;
+    border-radius: 5px;
+    border: 5px solid rgba(235, 86, 86, 0.303);
+    outline: 1px solid rgba(235, 86, 86, 0.983);
+     
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 3px 3px;
+    width:335px ;
+    height: 50px; 
+    border-radius: 5px;
+    border:5px solid rgba(106, 255, 80, 0.313) ;
+    outline: 1px solid rgba(23, 113, 7, 0.461);
+    
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 3px 3px;
+    width:335px ;
+    height: 30px; 
+    border-radius: 5px;
+    border:5px solid rgba(255, 80, 246, 0.313) ;
+    outline: 1px solid rgb(255, 80, 246);
+}
+
+.art2{
+    display: flex;
+    flex-direction: column;
+    align-self:flex-start;
+    margin: 3px 3px;
+    width:230px ;
+    height: 330px; 
+    border-radius: 5px;
+    border:5px solid rgba(17, 15, 183, 0.296) ;
+    outline: 1px solid rgb(31, 59, 124);
+}
+
+.header2{
+    display: flex;
+    flex-direction: row;
+    margin: 3px 3px;
+    width:213px ;
+    height: 30px; 
+    border-radius: 5px;
+    border:5px solid rgba(106, 255, 80, 0.313) ;
+    outline: 1px solid rgba(23, 113, 7, 0.461);
+}
+
+.sect1{
+    display: flex;
+    flex-direction: row;
+    margin: 150px 3px 0px;
+    width:213px ;
+    height: 30px; 
+    border-radius: 5px;
+    border:5px solid rgba(246, 80, 255, 0.65) ;
+    outline: 1px solid rgb(101, 7, 113);
+}
+
+.sect{
+    display: flex;
+    flex-direction: row;
+    margin: 3px 3px;
+    width:213px ;
+    height: 30px; 
+    border-radius: 5px;
+    border:5px solid rgba(246, 80, 255, 0.65) ;
+    outline: 1px solid rgb(101, 7, 113);
+}
+
+.footer_article{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 3px 3px;
+    width:213px ;
+    height: 15px; 
+    border-radius: 5px;
+    border:5px solid rgba(248, 240, 5, 0.313) ;
+    outline: 1px solid rgb(248, 240, 5);
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    align-self:flex-end;
+    margin: 3px 3px;
+    width: 80px; ;
+    height: 330px; 
+    border-radius: 5px;
+    border:5px solid rgba(229, 206, 3, 0.296) ;
+    outline: 1px solid rgb(229, 206, 3);
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 3px 3px;
+    width:335px ;
+    height: 30px; 
+    border-radius: 5px;
+    border:5px solid rgba(248, 240, 5, 0.313) ;
+    outline: 1px solid rgb(248, 240, 5);
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    align-self:flex-start;
+    margin: 3px 3px;
+    width:63px ;
+    height: 330px; 
+    border-radius: 5px;
+    border:5px solid rgba(15, 183, 175, 0.47) ;
+    outline: 1px solid rgb(31, 124, 113);
+}

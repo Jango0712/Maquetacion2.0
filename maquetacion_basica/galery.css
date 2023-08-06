@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.menu{
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 80px;
+width: 100vp;
+background-color: black;
+justify-content: space-around;
+}
+
+.enlaces{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+    font-size: xx-large;
+}
+
+.enlaces:hover{
+    border-bottom: 3px solid white;
+}
+
+.arti{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.photo{
+    width: 33.33%;
+    height: 610px;
+}
