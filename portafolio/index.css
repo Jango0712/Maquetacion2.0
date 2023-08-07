@@ -1,0 +1,365 @@
+/* general styles */
+
+:root{
+    --lightblue: #02feff;
+    --violet: #5d17eb;
+    --pink: #f605ff;
+    --black: #3d3d3d;
+    --white: #fff;
+}
+
+html{
+    scroll-behavior:smooth
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 2.5em;
+}
+h2{
+    font-size: 1.8em;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+/* header styles */
+
+header{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+}
+
+.header_options{
+    display: flex;
+    gap: 15px;
+}
+
+.header_options li{
+    list-style: none;
+}
+
+.header_options li a{
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--violet);
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 4px;
+    transition: all .3s;
+    font-weight: 500;
+}
+
+.header_options li a:hover{
+    color: var(--violet);
+    background-color: #3d3d3d;
+}
+
+.logo{
+    color: var(--black);
+    padding: 5px 10px ;
+    background-color: var(--pink);
+    border-radius: 4px;
+}
+
+.logo2{
+    height: 700px;
+    width: 700px ;
+}
+
+
+/* pagina inicial */
+
+.initial_page{
+    display: flex;
+}
+
+.background1{
+    flex: 1.5;
+    background-color: var(--black);
+}
+
+.imagen{
+    display: flex;
+    flex-direction: row;
+    border: hidden;
+    height: auto;
+    width: auto;
+}
+
+.yo{
+  /* height: ; */
+  width: 1230px;
+}
+
+.background2{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.welcome{
+    position: absolute;
+    bottom: 150px;
+    left: 130px;
+}
+
+.welcome h1{
+    color: var(--violet);
+    margin-bottom: 5px;
+}
+
+.welcome h2{
+    padding: 8px;
+    background-color: var(--violet);
+    color: var(--lightblue);
+    border-radius: 4px;
+    width: 300px;
+}
+
+/* info section */
+
+.info_page{
+    background-color: var(--lightblue);
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.about_info{
+    margin-left: 100px; 
+    width: 400px;
+    height: 500px;
+    flex: 1.5;
+    background-color: var(--black);
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 25px;
+    color: var(--white);
+    font-size: 1.2em;
+    border: 4px solid var(--violet);
+    font-weight: 600;
+}
+
+.info{
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+.img_logo{
+height: 1000px;
+width: 1000px;
+margin-left: 300px;
+}
+
+.img_info{
+    flex:2
+}
+
+/* tech section */
+
+.tech_page{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.tech_page h1{
+    color: var(--white);
+    text-shadow: 2px 2px 5px var(--pink);
+    font-size: 3em;
+}
+
+.tech_container{
+    display: flex;
+    width: 950px;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.tech_container .card_container{
+    width: 300px;
+    height: 350px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    outline: 2px solid var(--violet);
+}
+
+.html{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.css{
+    margin-top: -8px;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.js{
+    width: 250px;
+    height:158px;
+    object-fit: cover;
+}
+
+.text_tech{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* section proyecto */
+
+.section_proyectos{
+    display: flex;
+    flex-direction: row;
+    height: 900px;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 800px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 10px 5px rgba(160, 160, 160, 0.606);
+    margin: 50px 0px 0px 0px;
+}
+
+.img_container{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.img_carta{
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    border-bottom: 7px solid #f605ff;
+}
+
+.ciudad{
+    margin: 20px;
+    font-size: 30px;
+}
+
+.parrafo{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.link{
+   
+    margin: 60px ;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+/* form section */
+
+.form_page{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3d3d3d;
+}
+
+.form_page h2{
+    color: var(--white);
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color: var(--white);
+    height: 400px;
+    padding: 20px;
+    border-radius: 4px;
+    border: 2px solid var(--violet);
+}
+
+.formulario .input{
+    color: var(--black);
+    background-color: var(--white);
+    border: none; 
+    outline: none;
+    width: 350px;
+    border-bottom:2px solid var(--lightblue);
+}
+
+.formulario .button{
+    padding: 5px 20px;
+    border: none;
+    color: #02feff;
+    background-color: black;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.formulario textarea{
+    width:300px;
+    height: 100px;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color:black ; 
+    align-items: center;
+   
+}
+
+.fh{
+    color: var(--pink);
+    font-size: 25px;
+    margin: 40px;
+}
