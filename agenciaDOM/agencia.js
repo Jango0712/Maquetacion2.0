@@ -43,7 +43,7 @@ const filtrar = (event) =>{
                             <th>Nro personas</th>
                             <th>Fecha</th>
                         </tr>`
-    arrayPersonas.filter((item) => item.destino == "canarinas" | item.destino == "mallorca" |item.destino == "galicia").map(({nombre,origen,destino,nPersonas,fecha})=>lista.innerHTML += `
+    arrayPersonas.filter((item) => item.destino == "canarias" | item.destino == "mallorca" |item.destino == "galicia").map(({nombre,origen,destino,nPersonas,fecha})=>lista.innerHTML += `
     <tr>
         <td>${nombre}</td>
         <td>${origen}</td>
