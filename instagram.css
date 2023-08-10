@@ -177,3 +177,49 @@
     width: 135px;
     height: 40px;
 }
+
+footer{
+    width: 100%;
+    padding: 30px 5px;
+}
+
+footer div{
+    width: 100%;
+}
+
+.links_footer{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.links_footer a{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    font-size: 12px;
+}
+
+.year_footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(105, 105, 105);
+    font-size: 12px;
+}
+
+@media screen and (max-width: 875px) {
+    .movil{
+        display: none;
+    }
+}
+@media screen and (max-width: 450px) {
+    .container_form_1{
+        border: none;
+    }
+    .have_acc_container{
+        border: none;
+    }
+}
