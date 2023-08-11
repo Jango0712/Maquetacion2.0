@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="proyecto.css"> 
+    <title>Peliculas</title>
+</head>
+<body>
+    <header>
+        <a href="paginaActores.html">Actores</a>
+        <a href="paginaPeliculas.html">Peliculas</a>
+    </header>
+    <main >
+        <div class="row">
+            <div class="container" id="myMovies"></div>
+
+            <div id="formNewMovie" class="form_container">
+                <input type="text" id="title" name="name" placeholder="Titulo" autocomplete="on" required>
+                <input type="text" id="year" name="origin" placeholder="Año realizado" autocomplete="on" required>
+                <input type="text" id="nacionality" name="nacionality" placeholder="Nacionalidad" autocomplete="on" required>
+                <input type="text" id="genere" name="PersonNum" placeholder="Genero"    autocomplete="on" required>
+                <input type="text" id="actor" name="PersonNum" placeholder="Actores" autocomplete="on" required>
+                <input type="url" id="urlImage" name="PersonNum" placeholder="Url Imagen"    autocomplete="on" required>
+                <button type="button" class="btn" id="btnAddMovie">
+                    Añadir Pelicula    
+                </button>  
+            </div>  
+        </div>
+    </main>
+   
+<script src="movie.js"></script>
+</body>
+</html>
