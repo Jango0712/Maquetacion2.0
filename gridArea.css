@@ -1,0 +1,38 @@
+*{
+    color: white;
+}
+.container{
+    width: 2000px;
+    height: 1000px;
+    background-color: rgb(162, 50, 1);
+    display: grid;
+    grid-template-areas: "head head imagen"
+                          "aside contenido contenido"
+                          "aside contenido contenido"
+                          "aside contenido contenido"
+                          "footer footer footer";               
+}
+
+.header{
+    background-color: rgb(180, 4, 4);
+    grid-area: head;
+}
+
+.imagen{
+    background-color: rgb(118, 0, 0);
+    grid-area: imagen;
+}
+
+.aside{
+    background-color: orangered;
+    grid-area: aside;
+}
+
+.contenido{
+    grid-area: contenido;
+}
+
+.footer{
+    background-color: rgb(118, 0, 0);;
+    grid-area: footer;
+}

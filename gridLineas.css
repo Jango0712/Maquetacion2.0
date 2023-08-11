@@ -1,0 +1,113 @@
+*{color: white;}
+
+.container{
+    width: 2000px;
+    height: 1000px;
+    display: grid;
+ grid-template-columns: [x1] 3fr [x2] 1fr [x3];
+ grid-template-rows: [y1] 1fr [y2] 5fr [y3] 1fr [y4] ;
+    background-color:blue;
+}
+
+.header{
+    background-color: black;
+    text-align: center;
+    grid-column: x1 / x3;
+    grid-row: y1/ y2;
+}
+
+.body{
+    display: grid;
+    grid-column: x1 / x2;
+    grid-row: y2/ y3;
+    grid-template-columns:[xb1] 3fr [xb2] 1fr [xb3];
+    grid-template-rows: [yb1] 1fr [yb2] 5fr [yb3]; 
+    padding: 10px;
+}
+
+.contenido{
+border: solid 1px white;
+grid-column: xb1 /xb3;
+grid-row: yb1 / yb2 ;
+padding-left: 5px;
+margin: 5px;
+}
+
+.tex1{
+    border: solid 1px white;
+grid-column: xb1 /xb2;
+grid-row: yb2 / yb3 ;
+padding-left: 5px;
+margin: 5px;
+}
+
+.tex2{
+    border: solid 1px white;
+grid-column: xb2 /xb3;
+grid-row: yb2 / yb3 ;
+padding-left: 5px;
+margin: 5px;
+}
+
+.body2{
+    grid-column: x2 / x3;
+    grid-row: y2/ y3;
+    background-color:rgb(0, 255, 179);
+    display: grid;
+    grid-template-columns:[a1] 1fr [a2] ;
+    grid-template-rows: [b1] 1fr [b2] 1fr [b3] 1fr [b4] 1fr [b5]; 
+    padding: 10px;
+
+}
+
+.menu{
+    border: solid 1px black;
+    grid-column: a1 / a2;
+    margin: 5px;
+    text-align: center;
+}
+.menu1{
+    background-color: black;
+    grid-column: a1 / a2;
+    margin: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.menu2{
+    background-color: black;
+    grid-column: a1 / a2;
+    margin: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+.menu3{
+    background-color: black;
+    grid-column: a1 / a2;
+    margin: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.footer{
+    background-color: blueviolet;
+    grid-column: x1 / x3;
+    grid-row: y3/ y4;
+    display: grid;
+    grid-template-columns: [f1] 1fr [f2] 1fr [f3];
+    padding: 5px;
+}
+
+.footer1{
+grid-column: f1 / f2;
+border: solid 1px black;
+margin: 5px;
+}
+
+.contacto{
+    grid-column: f2 / f3;
+border: solid 1px black;
+margin: 5px;
+}
+
+

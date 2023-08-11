@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 400px 200px 400px;
+    grid-template-rows: 250px 250px 250px;
+}
+
+.grid_box{
+    text-align: center;
+    color:white
+}
+
+.a{
+    background-color: #9efe4c;
+}
+
+.b{
+    background-color: #ff952d;
+}
+
+.c{
+    background-color: #ff5e23;
+}
+ 
+.d{
+    background-color: #ff0018;
+}
+
+.e{
+    background-color: #0028f5;
+}
+
+.f{
+    background-color: #fffc43;
+}
