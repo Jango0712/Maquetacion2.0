@@ -16,6 +16,8 @@
 .header{
     background-color: rgb(180, 4, 4);
     grid-area: head;
+    text-align: center;
+
 }
 
 .imagen{
@@ -25,14 +27,52 @@
 
 .aside{
     background-color: orangered;
+    display: grid;
     grid-area: aside;
+    grid-template-areas: "aside1"
+                         "vacio"
+                         "aside2";
+                         padding: 5px;
+}
+
+.a1{
+    text-align: center;
+background-color: white;
+grid-area: aside1;
+margin: 5px;
+color: orangered;
+}
+
+.a2{
+    background-color: white;
+    text-align: center;
+grid-area: aside2;
+margin: 5px;
+color: orangered;
 }
 
 .contenido{
     grid-area: contenido;
+    display: grid;
+    grid-template-areas: "contenido"
+                         "Texto";
+                         padding: 5px;
+}
+
+.contenido1{
+    border: solid 1px white;
+    grid-area: contenido;
+    margin: 5px;
+}
+
+.texto{
+    border: solid 1px white;
+    grid-area: Texto;
+    margin: 5px;
 }
 
 .footer{
     background-color: rgb(118, 0, 0);;
     grid-area: footer;
+    text-align: center;
 }
